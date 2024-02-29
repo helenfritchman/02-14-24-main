@@ -1,0 +1,22 @@
+{
+  "folders": [
+	{
+		"path": "../../../HTML Tutorial"
+	},
+	{
+		"path": "../../../Tutorial pt 2"
+	},
+	{
+		"path": "../../../TUTOR"
+	},
+	{
+		"path": "../../../02-14-24-main"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "02-14-24-main"
+  }
+}

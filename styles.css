@@ -1,0 +1,634 @@
+/* Custom font */
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+} */
+
+/************** CSS Reset **************/
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+
+/*PINK TOP BAR_PINK TOP BAR_PINK TOP BAR_*/
+
+
+
+.pic1{
+  width: 100%;
+  height: 250px;
+}
+.title{
+  display: flex;
+  background-image: url(images/TOP\ BAR\ 2.jpg);
+}
+
+.center-left{
+  
+color: white;
+font-size: 90pt;
+flex: 2;
+font-family: 'League Gothic';
+padding: 18px;
+line-height: 65pt;
+
+}
+
+.publication{ 
+flex: 1;
+color: white;
+font-family: 'League Gothic';
+font-size: 5vw;
+margin-left: 40vw;
+
+}
+.corner{
+  height:8vw;
+  align-items: top;
+}
+
+
+/*ARTICLE 1 HEADINGGGGGGGGGGG*/
+.article-heading{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.author-name{
+  width: 350px;
+  grid-area: 1/1/1/2;
+  font-family: 'League Gothic';
+  font-size: 1.15vw;
+ 
+  
+}
+
+.article-heading-triangle {
+  height: 0;
+  width: 0;
+  grid-area: 1 / 2 / 1 / 3;
+  border-bottom: 40px solid white;
+  border-right: 40px solid transparent;
+}
+.article-heading-bars {
+  grid-area: 1 / 2 / 1 / 4;
+}
+
+.purplebar{
+  background-color: #6A70A7;
+  height: 1.15vw;
+}
+
+.yellowbar{
+  background-color: yellow;
+  height: 1.15vw;
+}
+
+.purpledot{
+  grid-area: 1/1/1/2;
+  margin-left: 25%;
+  margin-top: 5px;
+  width: 2.3vw;
+}
+.purpledot2{
+  grid-area: 1/1/1/2;
+  margin-left: 35%;
+  margin-top: 5px;
+  width: 2.3vw;
+}
+
+.purpledot3{
+  grid-area: 1/1/1/2;
+  margin-left: 45%;
+  margin-top: 5px ;
+  width: 2.3vw;
+}
+
+.purpledot4{
+  grid-area: 1/1/1/2;
+  margin-left: 55%;
+  margin-top: 5px ;
+  width: 2.3vw;
+}
+
+.purpledot5{
+  grid-area: 1/1/1/2;
+  margin-left: 65%;
+  margin-top: 5px ;
+  width: 2.3vw;
+}
+
+.purpledot6{
+  grid-area: 1/1/1/2;
+  margin-left: 75%;
+  margin-top: 5px ;
+  width: 2.3vw;
+}
+
+.purpledot7{
+  grid-area: 1/1/1/2;
+  margin-left: 85%;
+  margin-top: 5px ;
+  width: 2.3vw;
+}
+/* ARTICLE 1__ARTICLE 1__ARTICLE 1__ARTICLE 1___*/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+.article-1{
+  display: grid;
+  grid-template-columns:
+  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.redbox1{
+  
+  background-color: #E44F45;
+
+  height: 1000px;
+  grid-area: 1/4/8/8 ;
+  margin-top: 1vw;
+  
+}
+
+.whitebox1{
+  background-color: white;
+  grid-area: 1/1/span 5/ span 3;
+
+}
+
+.purplebox1{
+  background-color: #6A70A7;
+  grid-area: 6/1/span 2/ span 7;
+  height: 320px;
+  margin-top: 40px;
+}
+
+.roundbox{
+  background-color: #6A70A7;
+  height: 42vw;
+  width: 40vw;
+  grid-area: 2/1/6/5;
+  border-radius: 45px;
+  border: 8px solid yellow;
+  margin-left: 10vw;
+}
+
+.paragraph{
+  column-count: 3;
+  column-width: 115px;
+  grid-area: 1/4/6/8;
+  width: 370px;
+  height: 700px;
+  padding: 30pt;
+  font-size: 1vw;
+  color: white;
+  margin-top: 125px;
+  margin-left: 10vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.red-flower{
+  grid-area: 5/2/6/2;
+  margin-top: 95px;
+}
+
+.red-flower2{
+  grid-area: 5/3/6/3;
+  margin-top: 95px;
+}
+
+.yellowflower{
+  grid-area:1/7/2/7 ;
+  margin-left: 3vw;
+  margin-top: 2vw;
+}
+.flower-yellow{
+  grid-area: 1/6/2/7;
+  width: 10vw;
+  height: 10vw;
+}
+
+.flower-yellow2{
+  grid-area: 2/7/4/7;
+  width: 10vw;
+  height: 10vw;
+  margin-left: 3vw;
+  margin-top: 2vw;
+}
+
+.flower-yellow3{
+  grid-area: 3/7/4/7;
+  width: 10vw;
+  height: 10vw;
+  margin-left: 3vw;
+  margin-top: 2vw;
+}
+.bagel{
+  width:35vw;
+  grid-area: 4/6/8/8;
+  
+}
+
+  .bakers{
+  grid-area: 2/2/6/5;
+  margin-left: 140px;
+  margin-top: 55px;
+  }
+
+  .yellow-star{
+    grid-area: 1/2/3/2;
+    margin-top: 55px;
+  }
+
+.newbakers {
+  grid-area:2/2/5/5;
+  color: yellow;
+  font-size: 50pt;
+  padding-left: 35px;
+  padding-top: 45px;
+  font-family: 'League Gothic';
+  line-height: 70pt;
+}
+
+.large-quote{
+  grid-area: 6/2/8/7;
+  color:yellow;
+  text-align: center;
+  font-size: 25pt;
+  margin-top: 68px;
+  font-family: 'League Gothic';
+
+}
+/*Article 2 Heading!____________*/
+
+.article-heading2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.author-name2{
+  width: 350px;
+  grid-area: 1/3/1/4;
+  font-family: 'League Gothic';
+  font-size: 1.15vw;
+  margin-left: 75%;
+ 
+  
+}
+.pinkdot{
+  grid-area: 1/3/3/4;
+}
+
+.pinkdot2{
+  grid-area: 1/3/3/4;
+  margin-left: 10%;
+}
+
+.pinkdot3{
+  grid-area: 1/3/3/4;
+  margin-left: 20%;
+}
+.pinkdot4{
+  grid-area: 1/3/3/4;
+  margin-left: 30%;
+}
+
+.pinkdot5{
+  grid-area: 1/3/3/4;
+  margin-left: 40%;
+}
+
+.pinkdot6{
+  grid-area: 1/3/3/4;
+  margin-left: 50%;
+}
+
+.pinkdot7{
+  grid-area: 1/3/3/4;
+  margin-left: 60%;
+}
+
+
+
+.article-heading-triangle2 {
+  height: 0;
+  width: 0;
+  grid-area: 1 / 2/ 1 / 3;
+  border-bottom: 40px solid white;
+  border-left: 40px solid transparent;
+  margin-left: 92%;
+}
+.article-heading-bars2 {
+  grid-area: 1 / 1 / 1 / 3;
+}
+
+.purplebar2{
+  background-color: yellow;
+  height: 1.15vw;
+}
+
+.yellowbar2{
+  background-color: #E48BB3;
+  height: 1.15vw;
+}
+
+
+/*ARTICLE 2_ARTICLE 2___________*/ 
+
+.article2{
+  display: grid;
+  grid-template-columns:
+  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.yellowbox2{
+  background-color: yellow;
+  grid-area: 1/1/5/8;
+  height: 700px;
+  margin-top: 40px;
+}
+
+.redbox2{
+  background-color: #E44F45;
+  grid-area: 5/1/5/8;
+  height: 100px;
+}
+
+.pinkbox2{
+  background-color: #E48BB3;
+  grid-area: 5/1/8/8;
+  margin-top: 100px;
+}
+
+.childrensgarden{
+  grid-area: 1/5/7/7;
+  color:#E48BB3;
+  font-size: 40pt;
+  font-family: 'League Gothic';
+  line-height: 85pt;
+  margin-top: 90px;
+  
+}
+
+.paragraph2{
+  grid-area: 1/1/6/6;
+  column-count: 2;
+
+  
+  color: black;
+ width: 26vw;
+  margin-top: 100px;
+  margin-left: 130px ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  
+}
+
+.paragraph2-2{
+  grid-area: 1/3/6/6;
+  font-family: Arial, Helvetica, sans-serif;
+  column-count: 1;
+  width: 12vw;
+  font-size: 1vw;
+  margin-top: 100px;
+  margin-left: 145px;
+}
+
+.largequote2{
+  color: yellow;
+  grid-area: 6/4/7/8;
+  font-family: 'League Gothic';
+  font-size: 50pt;
+  text-align: center;
+}
+
+.gardenkids{
+  grid-area: 3/1/8/7;
+  width: 40vw;
+  margin-top: 3vw;;
+}
+
+.bigstar{
+  grid-area: 3/1/7/7;
+  width: 12vw;
+  margin-top: 7vw;
+  margin-left: 5vw;
+  
+}
+
+.littlestar{
+  grid-area: 3/2/7/8 ;
+  margin-top: 6vw;
+  margin-left: 2vw;
+}
+
+.bigstar2{
+  grid-area: 1/6/4/8;
+  width:12vw;
+  margin-left: 14vw;
+  margin-top: 4vw;
+}
+.littlestar2{
+  grid-area: 1/6/4/7;
+  margin-left: 8vw;
+}
+
+.littlestar3{
+  grid-area: 2/6/5/8;
+  margin-left: 8vw;
+}
+
+.flowerpurp{
+  grid-area: 5/4/6/7;
+  width: 7vw;
+}
+
+.flowerpurp2{
+  grid-area: 5/4/6/7;
+  margin-left: 10vw;
+  width: 7vw;
+}
+
+.flowerpurp3{
+  grid-area: 5/4/6/7;
+  margin-left: 20vw;
+  width: 7vw;
+}
+
+.flowerpurp4{
+  grid-area: 5/4/6/7;
+  margin-left: 30vw;
+  width: 7vw;
+}
+
+.flowerpurp5{
+  grid-area: 5/4/6/7;
+  margin-left: 40vw;
+  width: 7vw;
+}
+/* ARTICLE 3__________________________________*/
+
+.article3{
+  display: grid;
+  grid-template-columns:
+  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.purplebox3{
+  background-color: #6A70A7;
+  grid-area: 1/1/6/4;
+  height:825px;
+  margin-top: 40px;
+}
+
+.pinkbox3{
+  background-color: #E48BB3;
+  grid-area: 1/2/6/7;
+  border-radius: 45px;
+  height: 675px;
+  border: 8pt solid yellow;
+  margin-top: 115px;
+}
+
+.redbox3{
+  background-color: #E44F45;
+  grid-area: 6/1/8/8;
+}
+
+.richmondhero{
+  color: #6A70A7;
+  grid-area: 2/2/3/7;
+  font-family: 'League Gothic';
+  font-size: 4vw;
+  margin-left: 100px;
+}
+
+.subtitle{
+ grid-area: 2/2/4/6;
+ margin-left: 100px;
+ color: white;
+ font-family: 'League Gothic' ;
+ font-size: 3vw;
+ margin-top: 8vw;
+}
+
+.paragraph3{
+  grid-area: 3/2/6/6;
+  margin-top: 45px;
+  margin-left: 100px;
+  color: white;
+  column-count: 3;
+  width: 40vw;
+}
+
+.man{
+  grid-area:2/5/7/8;
+  width:30vw;
+  margin-top: 10vw;
+  margin-left: 4vw;
+}
+.superman{
+  grid-area: 4/1/7/5;
+  width:22vw;
+}
+
+.sparklebig{
+  grid-area: 1/6/3/8;
+}
+.sparklesmall{
+  grid-area: 2/6/3/8;
+}
+.largequote3{
+  color: yellow;
+  grid-area: 6/2/8/7;
+  font-family: 'League Gothic';
+  font-size: 2.5vw;
+  margin-top: 4vw;
+  line-height: 6vw;
+  text-align: center;
+}
+/* .redbox{
+  /* position:absolute; */
+  /* display: inline-block; */
+  /* width: 60%;
+  height: 750px; */
+  /* background-color: #FA1709;
+opacity: 80%;
+right: 0;  */
+/* } */
+
+/* .purplebox{  */
+  /* position: relative; */
+  /* background-color: #6A70A7; */
+  /* width: 100%;
+  height: 300px;
+  top: 650px; */
+/* } */
+
+/* .purplebox2{ */
+  /* position: absolute; */
+  /* background-color: #6A70A7; */
+  /* width: 500px;
+  height: 500px;
+  left: 150px;
+  top: 350px; */
+  /* border-radius: 15%;
+  border: 8px solid yellow;
+
+} */
+
+/* .title1{ */
+
+  /* position: relative; */
+  /* color: white; */
+  /* left: 25px; 
+  top: 25px; */
+  /* font-size: 50pt;
+} */
+
+/* .ipicked{ */
+  /* position:relative; */
+  /* color: yellow;
+  text-align: center; */
+  /* top: 50pt;
+  font-size: 40pt; */
+/* } */
+
+/*ARTICLE 2__ ARTICLE 2__ARTICLE 2__ARTICLE 2*/
+
+/* .yellowbox{ */
+  /* position: absolute; */
+  /* background-color: yellow; */
+  /* width: 100%;
+  height: 500px;
+  top: 1300px; */
+/* } */ */
+
+/************** End CSS Reset **************/
+
+#omars-container {
+  width: 100vw;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+ 
+}
